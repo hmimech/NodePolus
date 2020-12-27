@@ -9,7 +9,7 @@
   "type": "module",
   "scripts": {
     "postinstall": "husky install",
-    "start": "ts-node-dev bin/polus",
+    "start": "npm install && npm start",
     "proxy": "ts-node-dev bin/proxy",
     "set-region": "ts-node-dev bin/regionEditor set-region",
     "add-server": "ts-node-dev bin/regionEditor add-server",
